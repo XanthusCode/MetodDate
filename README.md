@@ -99,7 +99,7 @@ se usa para obtener la hora actual en milisegundos desde un momento de referenci
 
 
 
-### **Date.prototype.getUTCDay()**
+### **getUTCDay()**
 
   `let dayUtc = new Date().getFullYear();`
   `console.log(dayUtc );`
