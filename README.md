@@ -1,7 +1,7 @@
 # Metod Date
 ------
 
-**getDate():**
+### **getDate():**
 
   `let dia = new Date().getDate();`
   `console.log(dia);`
@@ -236,10 +236,10 @@ Este método establece los segundos para una fecha específica según la hora lo
 
 ### **setTime()**
 
-  `let currentDate = new Date();`
-  `let milli = 1609459200000;` 
-  `currentDate.setTime(milli);`
-  `console.log(currentDate);`
+  `const launchDate = new Date();`
+  `const futureDate = new Date();`
+  `futureDate.setTime(launchDate.getTime());`
+  `console.log(futureDate);`
 
 Se utiliza para establecer una fecha y hora específicas a partir de milisegundos.
 
@@ -308,7 +308,7 @@ Establece los segundos en formato UTC de una fecha.
   `date.setYear(2023);`
   `console.log(date.toString())`
 
-Establece el año de una fecha (desaconsejado, mejor usar setFullYear()).
+Establece el año de una fecha (desaconsejado, mejor usar setFullYear).
 
 
 ### **toDateString()**
