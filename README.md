@@ -6,11 +6,11 @@
   `let dia = new Date().getDate();`
   `console.log(dia);`
 
-Esta funcion lo que hace es arrijar el dia del mes en que se encuentra
+Esta funcion lo que hace es arrojar el dia del mes en que se encuentra
 
 
 
-##### **getDay():**
+### **getDay():**
 
   `let diaSemana = new Date().getDay();`
   `console.log(diaSemana);`
@@ -19,7 +19,7 @@ Retorna el día de la semana  siendo 0 el doingo y 6 el sabado
 
 
 
-##### **getFullYear()**
+### **getFullYear()**
 
   `let year = new Date().getFullYear();`
   `console.log(year);`
@@ -28,7 +28,8 @@ Retorna el año en el que se esta ejecutando
 
 
 
-##### **`getHours()`**
+### **getHours()**
+
   `let hours = new Date().getHours();`
   `console.log(hours);`
 
@@ -36,7 +37,7 @@ Retorna la hora en formato militar
 
 
 
-##### **getMilliseconds()**
+### **getMilliseconds()**
 
   `let mili = new Date().getMilliseconds();`
   `console.log(mili);`
@@ -171,6 +172,7 @@ Da los segundos actuales en relación con el Tiempo Universal Coordinado (UTC).
 
 
 **setDate()**
+
   `let currentDate = new Date().setDate(12);`
   `console.log(currentDate);`
 
@@ -179,6 +181,7 @@ Da los segundos actuales en relación con el Tiempo Universal Coordinado (UTC).
 
 
 **setFullYear()**
+
   `let currentDate = new Date().setFullYear(2025);`
   `console.log(currentDate);`
 
@@ -187,6 +190,7 @@ Permite asignar un año completo, usualmente de 4 dígitos
 
 
 **setHours()**
+
   `let currentDate = new Date().setHours(12);`
   `console.log(currentDate);`
 
@@ -195,6 +199,7 @@ Este método establece la hora para una fecha específica según la hora local.
 
 
 **setMilliseconds()**
+
   `let currentDate = new Date().setMilliseconds(500);`
   `console.log(currentDate);`
 
@@ -203,6 +208,7 @@ Este método establece los milisegundos para una fecha específica según la hor
 
 
 **setMinutes()**
+
   `let currentDate = new Date().setMinutes(30);`
   `console.log(currentDate);`
 
@@ -211,6 +217,7 @@ Este método establece los minutos para una fecha específica según la hora loc
 
 
 **setMonth()**
+
   `let currentDate = new Date().setMonth(5);`
   `console.log(currentDate);` 
 
@@ -219,6 +226,7 @@ Este método establece el mes. El mes se indexa desde 0 (enero) hasta 11 (diciem
 
 
 **setSeconds()**
+
   `let current = new Date().setSeconds(45);`
   `console.log(current);`
 
