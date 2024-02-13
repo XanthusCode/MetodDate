@@ -1,4 +1,4 @@
-### Metod Date
+# Metod Date
 ------
 
 **getDate():**
@@ -46,7 +46,7 @@ Retorna los milisegundos
 
 
 
-##### **getMinutes()**
+### **getMinutes()**
 
   `let minutes = new Date().getMinutes();`
   `console.log(minutes);`
@@ -55,7 +55,7 @@ Retorna los minutos
 
 
 
-##### **getMonth()**
+### **getMonth()**
   `let month = new Date().getMinutes();`
   `console.log(month);`
 
@@ -63,7 +63,7 @@ Retorna número del mes en el que se esta ejecutando
 
 
 
-##### **getSeconds()**
+### **getSeconds()**
 
   `let seconds = new Date().getMinutes();`
   `console.log(seconds);`
@@ -72,7 +72,7 @@ Retorna los segundos
 
 
 
-##### **getTime()**
+### **getTime()**
 
   `let time = new Date().getTime();`
   `console.log(time);`
@@ -81,7 +81,7 @@ se usa para obtener la hora actual en milisegundos desde un momento de referenci
 
 
 
-##### **getTimezoneOffset()**
+### **getTimezoneOffset()**
 
   `let t = new Date().getTimezoneOffset()`
   `console.log(t);`
@@ -90,7 +90,7 @@ se usa para obtener la hora actual en milisegundos desde un momento de referenci
 
 
 
-##### **getUTCDate()**
+### **getUTCDate()**
 
   `let dateUtc = new Date().getUTCDate();`
   `console.log(dateUtc);`
@@ -99,7 +99,7 @@ se usa para obtener la hora actual en milisegundos desde un momento de referenci
 
 
 
-**Date.prototype.getUTCDay()**
+### **Date.prototype.getUTCDay()**
 
   `let dayUtc = new Date().getFullYear();`
   `console.log(dayUtc );`
@@ -108,7 +108,7 @@ obtene el día en relación con el tiempo universal coordinado (UTC), independie
 
 
 
-**getUTCFullYear()**
+### **getUTCFullYear()**
 
   `let yearUtc = new Date().getFullYear();`
   `console.log(yearUtc );`
@@ -117,7 +117,7 @@ obtene el año de una fecha en relación con el tiempo universal coordinado (UTC
 
 
 
-**getUTCHours()**
+### **getUTCHours()**
 
   `let hoursUtc = new Date().getFullYear();`
   `console.log(hoursUtc);`
@@ -126,7 +126,7 @@ Da la hora actual en relación con el Tiempo Universal Coordinado (UTC). No se v
 
 
 
-**getUTCMilliseconds()**
+### **getUTCMilliseconds()**
 
   `let miliUtc = new Date().getFullYear();`
   `console.log(miliUtc );`
@@ -135,7 +135,7 @@ Da los milisegundos actuales en relación con el Tiempo Universal Coordinado (UT
 
 
 
-**getUTCMinutes()**
+### **getUTCMinutes()**
 
   `let minutesUtc = new Date().getFullYear();`
   `console.log(minutesUtc);`
@@ -144,7 +144,7 @@ Da los minutos actuales en relación con el Tiempo Universal Coordinado (UTC).
 
 
 
-**getUTCMonth()**
+### **getUTCMonth()**
 
   `let monthUtc = new Date().getFullYear();`
   `console.log(monthUtc);`
@@ -153,7 +153,7 @@ Da el numero del mes actual en relación con el Tiempo Universal Coordinado (UTC
 
 
 
-**getUTCSeconds()**
+### **getUTCSeconds()**
 
   `let secondsUtc = new Date().getFullYear();`
   `console.log(secondsUtc);`
@@ -162,7 +162,7 @@ Da los segundos actuales en relación con el Tiempo Universal Coordinado (UTC).
 
 
 
-**getYear()**
+### **getYear()**
 
   `let secondsUtc = new Date().getFullYear();`
   `console.log(secondsUtc);`
@@ -171,7 +171,7 @@ Da los segundos actuales en relación con el Tiempo Universal Coordinado (UTC).
 
 
 
-**setDate()**
+### **setDate()**
 
   `let currentDate = new Date().setDate(12);`
   `console.log(currentDate);`
@@ -180,7 +180,7 @@ Da los segundos actuales en relación con el Tiempo Universal Coordinado (UTC).
 
 
 
-**setFullYear()**
+### **setFullYear()**
 
   `let currentDate = new Date().setFullYear(2025);`
   `console.log(currentDate);`
@@ -189,7 +189,7 @@ Permite asignar un año completo, usualmente de 4 dígitos
 
 
 
-**setHours()**
+### **setHours()**
 
   `let currentDate = new Date().setHours(12);`
   `console.log(currentDate);`
@@ -198,7 +198,7 @@ Este método establece la hora para una fecha específica según la hora local.
 
 
 
-**setMilliseconds()**
+### **setMilliseconds()**
 
   `let currentDate = new Date().setMilliseconds(500);`
   `console.log(currentDate);`
@@ -207,7 +207,7 @@ Este método establece los milisegundos para una fecha específica según la hor
 
 
 
-**setMinutes()**
+### **setMinutes()**
 
   `let currentDate = new Date().setMinutes(30);`
   `console.log(currentDate);`
@@ -216,7 +216,7 @@ Este método establece los minutos para una fecha específica según la hora loc
 
 
 
-**setMonth()**
+### **setMonth()**
 
   `let currentDate = new Date().setMonth(5);`
   `console.log(currentDate);` 
@@ -225,7 +225,7 @@ Este método establece el mes. El mes se indexa desde 0 (enero) hasta 11 (diciem
 
 
 
-**setSeconds()**
+### **setSeconds()**
 
   `let current = new Date().setSeconds(45);`
   `console.log(current);`
@@ -234,11 +234,11 @@ Este método establece los segundos para una fecha específica según la hora lo
 
 
 
-**setTime()**
+### **setTime()**
 
   `let currentDate = new Date();`
-  `let millisSinceEpoch = 1609459200000;` 
-  `currentDate.setTime(millisSinceEpoch);`
+  `let milli = 1609459200000;` 
+  `currentDate.setTime(milli);`
   `console.log(currentDate);`
 
 Se utiliza para establecer una fecha y hora específicas a partir de milisegundos.
@@ -252,7 +252,7 @@ Se utiliza para establecer una fecha y hora específicas a partir de milisegundo
 Este método te permite establecer el día del mes para una fecha específica.
 
 
-**setUTCFullYear()**
+### **setUTCFullYear()**
 
   `const date = new Date().setUTCFullYear(2023);`
   `console.log(date);` 
@@ -260,14 +260,14 @@ Este método te permite establecer el día del mes para una fecha específica.
 Establece el año en formato UTC de una fecha.
 
 
-**setUTCHours()**
+### **setUTCHours()**
 
   `const date = new Date().setUTCHours(10);`
   `console.log(date);` 
 
 Establece la hora en formato UTC de una fecha.
 
-**setUTCMilliseconds()**
+### **setUTCMilliseconds()**
 
 `const date = new Date().setUTCMilliseconds(500);`
 `console.log(date);`
@@ -275,7 +275,7 @@ Establece la hora en formato UTC de una fecha.
 Establece los milisegundos en formato UTC de una fecha.
 
 
-**setUTCMinutes()**
+### **setUTCMinutes()**
 
   `const date = new Date();`
   `date.setUTCMinutes(30);`
@@ -284,7 +284,7 @@ Establece los milisegundos en formato UTC de una fecha.
 Establece los minutos en formato UTC de una fecha.
 
 
-**setUTCMonth()**
+### **setUTCMonth()**
 
   `const date = new Date();`
   `date.setUTCMonth(5);` 
@@ -293,7 +293,7 @@ Establece los minutos en formato UTC de una fecha.
 Establece el mes en formato UTC de una fecha.
 
 
-**setUTCSeconds()**
+### **setUTCSeconds()**
 
   `const date = new Date();`
   `date.setUTCSeconds(30);`
@@ -302,7 +302,7 @@ Establece el mes en formato UTC de una fecha.
 Establece los segundos en formato UTC de una fecha.
 
 
-**setYear()**
+### **setYear()**
 
   `const date = new Date();`
   `date.setYear(2023);`
@@ -311,7 +311,7 @@ Establece los segundos en formato UTC de una fecha.
 Establece el año de una fecha (desaconsejado, mejor usar setFullYear()).
 
 
-**toDateString()**
+### **toDateString()**
 
   `const date = new Date();`
   `console.log(date.toDateString());` 
@@ -319,7 +319,7 @@ Establece el año de una fecha (desaconsejado, mejor usar setFullYear()).
 Devuelve la parte de la fecha de un objeto Date.
 
 
-**toISOString()**
+### **toISOString()**
 
   `const date = new Date();` 
   `console.log(date.toISOString());`  
@@ -327,7 +327,7 @@ Devuelve la parte de la fecha de un objeto Date.
 Devuelve una cadena de texto en formato ISO de una fecha.
 
 
-**toJSON()**
+### **toJSON()**
 
   `const date = new Date();`
   `console.log(date.toJSON());` 
@@ -335,7 +335,7 @@ Devuelve una cadena de texto en formato ISO de una fecha.
 Devuelve la representación en cadena JSON de un objeto Date.
 
 
-**toGMTString()**
+### **toGMTString()**
 
   `const date = new Date();`
   `console.log(date.toGMTString());` 
@@ -343,7 +343,7 @@ Devuelve la representación en cadena JSON de un objeto Date.
  Devuelve una cadena de texto en formato GMT de una fecha (obsoleto, mejor usar toUTCString()).
 
 
-**toLocaleDateString()**
+### **toLocaleDateString()**
 
   `const date = new Date();`
   `console.log(date.toLocaleDateString());` 
@@ -351,7 +351,7 @@ Devuelve la representación en cadena JSON de un objeto Date.
 Devuelve la parte de la fecha de una fecha según la configuración regional y las opciones especificadas.
 
 
-**toLocaleString()**
+### **toLocaleString()**
 
   `const date = new Date();`
   `console.log(date.toLocaleString());` 
@@ -359,7 +359,7 @@ Devuelve la parte de la fecha de una fecha según la configuración regional y l
 Devuelve la representación de cadena de texto de una fecha según la configuración regional y las opciones 
 especificadas.
 
-**toLocaleTimeString()**
+### **toLocaleTimeString()**
 
   `const date = new Date();`
   `console.log(date.toLocaleTimeString());` 
@@ -367,7 +367,7 @@ especificadas.
 Devuelve la parte de la hora de una fecha según la configuración regional y las opciones especificadas.
 
 
-**toString()**
+### **toString()**
 
   `const date = new Date();`
   `console.log(date.toString());` 
@@ -375,14 +375,14 @@ Devuelve la parte de la hora de una fecha según la configuración regional y la
 Devuelve la representación de cadena de texto de una fecha.
 
 
-**toTimeString()**
+### **toTimeString()**
 
   `const date = new Date();`
   `console.log(date.toTimeString());` 
 
  Devuelve la parte de la hora de una fecha.
 
-**toUTCString()**
+### **toUTCString()**
 
   `const date = new Date();`
   `console.log(date.toUTCString());` 
@@ -390,7 +390,7 @@ Devuelve la representación de cadena de texto de una fecha.
 Devuelve una cadena de texto en formato UTC de una fecha.
 
 
-**valueOf()**
+### **valueOf()**
   `const date = new Date();`
   `console.log(date.valueOf());` 
 
