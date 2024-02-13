@@ -182,10 +182,11 @@ Da los segundos actuales en relación con el Tiempo Universal Coordinado (UTC).
 
 ### **setFullYear()**
 
-  `let currentDate = new Date().setFullYear(2025);`
-  `console.log(currentDate);`
+  `const event = new Date();`
+  `event.setFullYear(2024);`
+  `console.log(event.getFullYear());`
 
-Permite asignar un año completo, usualmente de 4 dígitos
+Permite asignar y mostrar un año completo.
 
 
 
@@ -241,7 +242,7 @@ Este método establece los segundos para una fecha específica según la hora lo
   `futureDate.setTime(launchDate.getTime());`
   `console.log(futureDate);`
 
-Se utiliza para establecer una fecha y hora específicas a partir de milisegundos.
+Se utiliza para dar el dia de la semana, mes, dia del mes y hora en el que se realizo. Ademas lo da en la hora estandar del pais en el que se use 
 
 
 **setUTCDate()**
